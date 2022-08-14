@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-08-14T12:59:49.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.0.4" etag="0e9-jGrE46e70cogWW2O" type="github"><diagram id="gcuZ1I2ov1cyVsFq6xhH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-14T13:14:14.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="f6eGceyRS9wsNa_iwHVB" version="20.0.4" type="github">
+  <diagram id="gcuZ1I2ov1cyVsFq6xhH" name="Page-1">
+    <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-1" target="Nf2NgtLbRWX5CoUYuLko-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-1" value="Hive表结构变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-3" target="Nf2NgtLbRWX5CoUYuLko-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-3" value="总线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-5" value="Mysql中的Hive Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-7" target="Nf2NgtLbRWX5CoUYuLko-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-7" target="Nf2NgtLbRWX5CoUYuLko-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-7" value="获取更新的Hive表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-9" target="Nf2NgtLbRWX5CoUYuLko-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-9" value="遍历Hive表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-11" target="Nf2NgtLbRWX5CoUYuLko-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-11" value="通过Hive表名获取预览数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-13" target="Nf2NgtLbRWX5CoUYuLko-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-13" target="Nf2NgtLbRWX5CoUYuLko-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-13" value="调用打标平台打标签" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-15" target="Nf2NgtLbRWX5CoUYuLko-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-15" value="打标结果输出到Mysql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-20" target="Nf2NgtLbRWX5CoUYuLko-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-20" value="责任链模式更新资源的安全级别到Mysql" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="450" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-24" target="Nf2NgtLbRWX5CoUYuLko-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-24" value="筛选出安全级别上升的表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-26" value="通过Http请求发送Kim消息给表的负责人" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="640" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nf2NgtLbRWX5CoUYuLko-28" target="Nf2NgtLbRWX5CoUYuLko-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-28" value="创建Kafka2Hive的任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf2NgtLbRWX5CoUYuLko-30" value="制作大数据看板" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
